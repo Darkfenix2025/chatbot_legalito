@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             chatLog.innerHTML += `<p class="user-message">${userMessage}</p>`;
             userInput.value = '';
          try {
-               const response = await fetch('http://localhost:3001/chat', {
+               const response = await fetch('https://chatbot-legalito01-dc1i48jde-darkfenix2025s-projects.vercel.app/', {
                   method: 'POST',
                   headers: {
                      'Content-Type': 'application/json',
