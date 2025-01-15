@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
        const sendButton = document.getElementById('send-button');
    if(closeChatbotButton){
       closeChatbotButton.addEventListener('click', ()=>{
-      window.location.href = "legalito.ar"; // Reemplaza "index.html" con la URL de tu página principal
+      window.location.href = "https://www.legalito.ar"; // Reemplaza "index.html" con la URL de tu página principal
    });
    }
       if(sendButton){
