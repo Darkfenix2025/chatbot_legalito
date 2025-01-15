@@ -99,7 +99,6 @@ Proveer información inicial útil y profesional mientras generas confianza en L
     }
 });
 
-
 module.exports = (req, res) => {
-  app(req, res);
+    app(req, res);
 };
